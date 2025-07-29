@@ -1,12 +1,12 @@
-python lerobot/scripts/train.py \
-  --policy.path=lerobot/smolvla_base \
-  --dataset.repo_id=lerobot/pusht_image \
-  --dataset.root=/home/heimrih/lerobot/datasets/pusht_image/data \
+python lerobot/lerobot/scripts/train.py \
+  --policy.type=smolvla \
+  --dataset.repo_id=aopolin-lv/libero_spatial_no_noops_lerobot_v21 \
   --batch_size=64 \
-  --steps=1000 \
-  --eval_freq=500 \
-  --save_freq=500 \
-  --env.type=pusht \
-  --output_dir=/home/heimrih/lerobot/finetunetest_1000 \
-  --job_name=smolvla_train \
+  --steps=100000 \
   --policy.device=cuda \
+  --wandb.enable=true \
+  --save_freq 50000 \
+  --output_dir=/po2/heimrih/lerobot/libero_smolvla \
+  --policy.push_to_hub=false \
+  --wandb.project=libero_smolvla \
+  --job_name=libero_smolvla
