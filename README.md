@@ -8,8 +8,9 @@ All evaluation is run using the `test.sh` script.
 
 **Heads up:**  
 This repository is not the actual repo from my local environment. It only contains the necessary files for code checking.  
-Most of the main policy are pulled directly from lerobot.  
-The configuration of the smolvla is in policies/smolvla
+Most of the main policy are pulled directly from lerobot.[lerobot](https://github.com/huggingface/lerobot)  
+The configuration of the smolvla is in policies/smolvla  
+The Libero benchmark is also cloned locally however the evaluation script is not from them.[LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)  
 
 > Note:  
 > The main `train.sh`script eventually points to `train.py` and the evaluation script `test.sh` points to this evaluation script`eval_LIBERO_smol.py` are also available at the main page of this repository.  
@@ -25,8 +26,9 @@ The configuration of the smolvla is in policies/smolvla
 
 **【重要】**  
 このリポジトリは、私のローカル環境にあった実際のリポジトリそのものではありません。コードチェックに必要なファイルのみを含んでいます。  
-主要なポリシーのほとんどは、lerobotから直接引用しています。  
+主要なポリシーのほとんどは、lerobotから直接引用しています。[lerobot](https://github.com/huggingface/lerobot)  
 smolvlaの設定は policies/smolvla にあります。  
+LIBEROベンチマークも直接引用していますが、評価スクリプトは違います。[LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)  
 
 >注記:
 
