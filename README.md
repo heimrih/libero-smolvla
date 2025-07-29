@@ -23,7 +23,7 @@ The configuration of the smolvla is in policies/smolvla
 全ての学習は train.sh スクリプトを使用して実行します。  
 全ての評価は test.sh スクリプトを使用して実行します。  
 
-**【重要】**
+**【重要】**  
 このリポジトリは、私のローカル環境にあった実際のリポジトリそのものではありません。コードチェックに必要なファイルのみを含んでいます。  
 主要なポリシーのほとんどは、lerobotから直接引用しています。  
 smolvlaの設定は policies/smolvla にあります。  
