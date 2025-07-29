@@ -1,0 +1,12 @@
+python lerobot/scripts/train.py \
+  --policy.path=lerobot/smolvla_base \
+  --dataset.repo_id=lerobot/pusht_image \
+  --dataset.root=/home/heimrih/lerobot/datasets/pusht_image/data \
+  --batch_size=64 \
+  --steps=1000 \
+  --eval_freq=500 \
+  --save_freq=500 \
+  --env.type=pusht \
+  --output_dir=/home/heimrih/lerobot/finetunetest_1000 \
+  --job_name=smolvla_train \
+  --policy.device=cuda \
